@@ -1,0 +1,29 @@
+/*All Content*/
+*{
+  font-size: 18px;
+}
+
+.wholebody{
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  background-color: black;
+}
+
+/*First Section*/
+
+
+/*Second Section*/
+.imgback{
+  display: flex;
+  background-image: url("../images/moto.jpeg");
+  background-position: center;
+  background-size: cover;
+  border: 1px solid red;
+  height:25rem;
+}
+
+
+@media only screen and(max-width:1024px){
+  .wholebody, .holder, .blackbar, .topbar{width: 100%;}
+}
