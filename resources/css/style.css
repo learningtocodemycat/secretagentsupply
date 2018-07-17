@@ -251,7 +251,7 @@
 .statholder{
   display: flex;
   width: 960px;
-  height: 300px;
+  height: 130px;
   border: 1px solid blue;
   justify-content: space-between;
 }
