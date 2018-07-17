@@ -35,9 +35,54 @@
   display: flex;
   border: 1px solid yellow;
   background-color: black;
-  width: 25rem;
+  width: 27rem;
   margin-top: 9rem;
   margin-bottom: 7rem;
+  flex-direction: column;
   }
 
-  
+  .arrival{
+    display: flex;
+    color: white;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 0.25rem;
+
+  }
+
+  .moto{
+    display: flex;
+    color: white;
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 3rem;
+  }
+
+/* Third Section */
+  .navbar{
+    display: flex;
+    background-color: firebrick;
+    width: 100%;
+    height: 2.5rem;
+    justify-content: center;
+  }
+
+  .words{
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    border: 1px solid blue;
+  }
+
+.eye, .apperal, .gadgets, .veh, .classes, .contact { display: flex;
+     font-family: Helvetica;
+     font-size: 1rem;
+     color: white;
+     margin-top: 0.75rem;
+     margin-bottom: 0.75rem;
+
+}
