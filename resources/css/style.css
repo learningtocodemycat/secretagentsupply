@@ -5,7 +5,45 @@
 
 
 /*First Section*/
+.topbar{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
 
+}
+
+.blackbar{
+  display: flex;
+  width: 960px;
+  background-color: black;
+  border: 1px solid green;
+
+}
+
+.image{
+  display: flex;
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1.5rem;
+  width: 2.4rem;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 0.44rem;
+  margin-bottom: 0.44rem;
+
+}
+
+.title{
+  display: flex;
+  color: white;
+  font-family: helvetica;
+  font-size:1rem;
+  margin-top: 0.65rem;
+  margin-bottom: 0.65rem;
+}
 
 
 
@@ -86,7 +124,7 @@
 .bigcontainer{
   display: flex;
   width: 100%;
-border: 1px solid yellow;
+
   justify-content: center;
 }
 
