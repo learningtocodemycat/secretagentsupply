@@ -3,14 +3,10 @@
   font-size: 18px;
 }
 
-.wholebody{
-  display: block;
-  width: 100%;
-  height: 2.5rem;
-  background-color: black;
-}
 
 /*First Section*/
+
+
 
 
 /*Second Section*/
@@ -84,5 +80,39 @@
      color: white;
      margin-top: 0.75rem;
      margin-bottom: 0.75rem;
+}
 
+/*Fourth Section*/
+.bigcontainer{
+  display: flex;
+  width: 100%;
+border: 1px solid yellow;
+  justify-content: center;
+}
+
+.littlecontainer{
+  display: flex;
+  width: 960px;
+  border: 1px solid blue;
+  justify-content: space-between;
+}
+.box1{
+  display: flex;
+  margin-top: 3rem;
+  width: 30%;
+  border: 4px solid black;
+}
+
+.box2{
+  display: flex;
+  margin-top: 3rem;
+  width: 30%;
+  border: 4px solid black;
+}
+
+.box3{
+  display: flex;
+  margin-top: 3rem;
+  width: 30%;
+  border: 4px solid black;
 }
