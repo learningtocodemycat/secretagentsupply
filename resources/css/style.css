@@ -259,13 +259,23 @@
     .location{
     display: flex;
     width: 35%;
-    border: 1px solid red;
     color: white;
     background-color: black;
     font-family: helvetica;
     font-size: 1rem;
     margin-top:3rem;
+    flex-direction: column;
+    border: 1px solid red;
   }
+
+.that{
+  display: flex;
+  width: 100%;
+  height: 1rem;
+  background-color: white;
+  font-family: helvetica;
+  color: black;
+}
 
   .location p{
     margin-left: 2rem;
@@ -276,7 +286,6 @@
   .hours{
     display: flex;
     width: 35%;
-    border: 1px solid red;
     color:white;
     background-color: black;
    font-family: helvetica;
@@ -284,6 +293,17 @@
    margin-top: 3rem;
 
 }
+
+.them{
+  display: flex;
+  width: 100%;
+  height: 1rem;
+  border: 1px solid red;
+  font-family: helvetica;
+  color: black;
+}
+
+
 
   .hours p{
     margin-left: 2rem;
