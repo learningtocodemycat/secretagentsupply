@@ -21,9 +21,25 @@
   background-size: cover;
   border: 1px solid red;
   height:25rem;
+  justify-content: center;
 }
 
+.holder{
+  display: flex;
+  border: 1px solid red;
+  width: 960px;
 
-@media only screen and(max-width:1024px){
-  .wholebody, .holder, .blackbar, .topbar{width: 100%;}
+}
+
+.blackbox{
+  display: flex;
+  border: 1px solid yellow;
+  background-color: black;
+  width: 25rem;
+  margin-top: 9rem;
+  margin-bottom: 7rem;
+
+
+
+
 }
