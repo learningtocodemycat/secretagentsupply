@@ -344,5 +344,9 @@
     font-family: helvetica;
     font-size: 1rem;
     border: 1px solid red;
-
   }
+
+
+@media only screen and(max-width:1024px){
+div.box3{display: none;}  
+}
