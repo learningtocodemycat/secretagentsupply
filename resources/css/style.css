@@ -112,7 +112,7 @@
     border: 1px solid blue;
   }
 
-.eye, .apperal, .gadgets, .veh, .classes, .contact { display: flex;
+.eye, .apperal, .gadgets, .veh, .classes, .contact , .menu { display: flex;
      font-family: Helvetica;
      font-size: 1rem;
      color: white;
@@ -131,6 +131,7 @@
 .littlecontainer{
   display: flex;
   width: 960px;
+  height: 320px;
   border: 1px solid blue;
   justify-content: space-between;
 }
@@ -347,6 +348,20 @@
   }
 
 
-@media only screen and(max-width:1024px){
-div.box3{display: none;}  
+@media only screen and (max-width:960px){
+    .topbar, .navbar, .ender {width: 100%;}
+   .box3, .eye, .apperal,.gadgets, .veh,.classes, .contact { display: none;}
+   .box1, .box2{width: 47%;}
+ .location, .hours{width: 35%;}
+ .littlecontainer{ height: 400px;}
+ .stats{margin-top: 5rem;
+    height: 200px;}
+    .ender{ margin-top: 1rem;}
+    .words{justify-content: center;}
+    
+
+}
+
+@media only screen and (min-width:961px){
+  .menu{display: none;}
 }
