@@ -17,7 +17,6 @@
   display: flex;
   width: 960px;
   background-color: black;
-  border: 1px solid green;
 
 }
 
@@ -53,21 +52,17 @@
   background-image: url("../images/moto.jpeg");
   background-position: center;
   background-size: cover;
-  border: 1px solid red;
   height:25rem;
   justify-content: center;
 }
 
 .holder{
   display: flex;
-  border: 1px solid red;
   width: 960px;
-
 }
 
 .blackbox{
   display: flex;
-  border: 1px solid yellow;
   background-color: black;
   width: 27rem;
   margin-top: 9rem;
@@ -109,7 +104,6 @@
     display: flex;
     width: 960px;
     justify-content: space-between;
-    border: 1px solid blue;
   }
 
 .eye, .apperal, .gadgets, .veh, .classes, .contact , .menu { display: flex;
@@ -132,7 +126,6 @@
   display: flex;
   width: 960px;
   height: 320px;
-  border: 1px solid blue;
   justify-content: space-between;
 }
 .box1{
@@ -199,7 +192,6 @@
   display: flex;
   width: 960px;
   height: 130px;
-  border: 1px solid blue;
   justify-content: space-between;
 }
 
@@ -214,7 +206,6 @@
     font-size: 1rem;
     margin-top:3rem;
     flex-direction: column;
-    border: 1px solid red;
   }
 
 #that {
@@ -222,7 +213,6 @@
   width: 100%;
   height: 2rem;
   font-family: helvetica;
-  border: 1px solid red;
   text-align: left;
   background-color: white;
   color: black;
@@ -246,7 +236,6 @@
    font-family: helvetica;
    font-size: 1rem;
    margin-top: 3rem;
-   border: 1px solid red;
    flex-direction: column;
 
 }
@@ -256,7 +245,6 @@
   width: 100%;
   height: 2rem;
   background-color: white;
-  border: 1px solid red;
   font-family: helvetica;
   color: black;
 }
@@ -282,7 +270,6 @@
     display: flex;
     width: 960px;
     height: 2rem;
-    border: 1px solid red;
     justify-content: space-between;
   }
 
@@ -290,7 +277,6 @@
   display: flex;
   width: 30.5%;
   height: 2rem;
-  border: 1px solid red;
   background-color: black;
   color: white;
   align-content: center;
@@ -309,7 +295,6 @@
 display: flex;
 width: 30.5%;
 height: 2rem;
-border: 1px solid red;
 background-color: black;
 color: white;
 align-content: center;
@@ -328,7 +313,6 @@ justify-content: center;
   display: flex;
   width: 30.5%;
   height: 2rem;
-  border: 1px solid red;
   background-color: black;
   color: white;
   align-content: center;
@@ -357,7 +341,6 @@ justify-content: center;
   .blackend{
     display: flex;
     height: 10rem;
-    border: 1px solid red;
     align-items: center;
     width: 960px;
   }
@@ -367,7 +350,6 @@ justify-content: center;
     color: white;
     font-family: helvetica;
     font-size: 1rem;
-    border: 1px solid red;
   }
 
 
@@ -375,28 +357,42 @@ justify-content: center;
     .topbar, .navbar, .ender {width: 100%;}
    .box3, .wordbox3, .eye, .apperal,.gadgets, .veh,.classes, .contact { display: none;}
    .box1, .box2{width: 47%;}
-   .wordbox1, .wordbox2{width: 47.6%}
+   .wordbox1, .wordbox2{width: 48%}
  .location, .hours{width: 35%;
                     margin-top: 0rem;
                      margin-bottom: 0rem;}
  .littlecontainer{ height: 20rem;}
- .stats{margin-top: 5rem;
-    height: 200px;}
+ .stats{margin-top: 5rem;  height: 200px;}
     .ender{ margin-top: 0rem;}
     .words{justify-content: center;}
     .imgin2{width: 90%;
             margin-left: 3rem;}
     .imgin{margin-left: 3rem;}
     .statholder{height: 99px;}
+  }
 
 @media only screen and  (max-width:470px){
   .box1, .wordbox1 {width: 100%;}
   .box2, .wordbox2 {display: none;}
   .imgin{margin-left: 3rem;}
+ .statholder{flex-direction: column;
+              height: 200px;}
+  .location{width: 100%;
+          margin-bottom: 0.5rem;}
+ .hours{width:100%;}
+ .blackend{justify-content: center;}
+ .ender{margin-top: 5rem;}
+ .arrival{font-family: Helvetica;
+                font-size: 0.87rem;
+              font-weight: bold;}
+.moto{font-family:helvetica;
+        font-size: 1rem;
+          font-weight: bold;}
+  .blackbox{width: 100%;   height: 6rem;}
+  .holder{margin-top: 9rem;}
 }
 
 
-}
 
 @media only screen and (min-width:961px){
   .menu{display: none;}
