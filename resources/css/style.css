@@ -140,7 +140,7 @@
   margin-top: 3rem;
   width: 30%;
   border: 4px solid black;
-  flex-direction: column;
+
 }
 
 .imgin img{
@@ -152,31 +152,15 @@
   border: 1px solid red;
 }
 
-.wordbox1{
-  display: flex;
-  width:100%;
-  height: 3rem;
-  border: 1px solid red;
-  background-color: black;
-  color: white;
-  align-content: center;
-  justify-content: center;
-}
 
-.wordbox1 p{
-  display: flex;
-  margin-top: 0.65rem;
-  margin-bottom:0.65rem;
-  font-family: helvetica;
-  font-size: 1rem;
-}
+
+
 
 .box2{
   display: flex;
   margin-top: 3rem;
   width: 30%;
   border: 4px solid black;
-  flex-direction: column;
 }
 
 .imgin2 img{
@@ -188,31 +172,11 @@
   border: 1px solid red;
 }
 
-.wordbox2{
-  display: flex;
-  width:100%;
-  height: 3rem;
-  border: 1px solid red;
-  background-color: black;
-  color: white;
-  align-content: center;
-  justify-content: center;
-}
-
-.wordbox2 p{
-  display: flex;
-  margin-top: 0.65rem;
-  margin-bottom:0.65rem;
-  font-family: helvetica;
-  font-size: 1rem;
-}
-
 .box3{
   display: flex;
   margin-top: 3rem;
   width: 30%;
   border: 4px solid black;
-  flex-direction: column;
 }
 
 .imgin3 img{
@@ -224,24 +188,6 @@
   border: 1px solid red;
 }
 
-.wordbox3{
-  display: flex;
-  width:100%;
-  height: 3rem;
-  border: 1px solid red;
-  background-color: black;
-  color: white;
-  align-content: center;
-  justify-content: center;
-}
-
-.wordbox3 p{
-  display: flex;
-  margin-top: 0.65rem;
-  margin-bottom:0.65rem;
-  font-family: helvetica;
-  font-size: 1rem;
-}
 /*Fifth Section*/
 .stats{
   display: flex;
@@ -323,6 +269,83 @@
     margin-bottom: 1rem;
   }
 
+  /*Secret Section*/
+  .wordcontainer{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    justify-content: center;
+
+  }
+
+  .eachword{
+    display: flex;
+    width: 960px;
+    height: 2rem;
+    border: 1px solid red;
+    justify-content: space-between;
+  }
+
+  .wordbox1{
+  display: flex;
+  width: 30.5%;
+  height: 2rem;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  align-content: center;
+  justify-content: center;
+}
+
+.wordbox1 p{
+  display: flex;
+  margin-top: 0.65rem;
+  margin-bottom:0.65rem;
+  font-family: helvetica;
+  font-size: 1rem;
+}
+
+.wordbox2{
+display: flex;
+width: 30.5%;
+height: 2rem;
+border: 1px solid red;
+background-color: black;
+color: white;
+align-content: center;
+justify-content: center;
+}
+
+.wordbox2 p{
+  display: flex;
+  margin-top: 0.65rem;
+  margin-bottom:0.65rem;
+  font-family: helvetica;
+  font-size: 1rem;
+}
+
+.wordbox3{
+  display: flex;
+  width: 30.5%;
+  height: 2rem;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  align-content: center;
+  justify-content: center;
+}
+
+.wordbox3 p{
+  display: flex;
+  margin-top: 0.65rem;
+  margin-bottom:0.65rem;
+  font-family: helvetica;
+  font-size: 1rem;
+}
+
+
+
+
   /*fifth section*/
   .ender{
     display: flex;
@@ -350,15 +373,28 @@
 
 @media only screen and (max-width:960px){
     .topbar, .navbar, .ender {width: 100%;}
-   .box3, .eye, .apperal,.gadgets, .veh,.classes, .contact { display: none;}
+   .box3, .wordbox3, .eye, .apperal,.gadgets, .veh,.classes, .contact { display: none;}
    .box1, .box2{width: 47%;}
- .location, .hours{width: 35%;}
- .littlecontainer{ height: 400px;}
+   .wordbox1, .wordbox2{width: 47.6%}
+ .location, .hours{width: 35%;
+                    margin-top: 0rem;
+                     margin-bottom: 0rem;}
+ .littlecontainer{ height: 20rem;}
  .stats{margin-top: 5rem;
     height: 200px;}
-    .ender{ margin-top: 1rem;}
+    .ender{ margin-top: 0rem;}
     .words{justify-content: center;}
-    
+    .imgin2{width: 90%;
+            margin-left: 3rem;}
+    .imgin{margin-left: 3rem;}
+    .statholder{height: 99px;}
+
+@media only screen and  (max-width:470px){
+  .box1, .wordbox1 {width: 100%;}
+  .box2, .wordbox2 {display: none;}
+  .imgin{margin-left: 3rem;}
+}
+
 
 }
 
