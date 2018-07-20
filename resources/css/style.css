@@ -136,13 +136,17 @@
 
 }
 
-.imgin img{
+.imgin {
   display: flex;
-  width: 50%;
+  width: 10rem;
+  height: 10rem;
   margin-left: 5rem;
   margin-top: 3rem;
   margin-bottom: 2rem;
-  border: 1px solid red;
+  background-image: url("../images/pen.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 
@@ -156,13 +160,17 @@
   border: 4px solid black;
 }
 
-.imgin2 img{
+.imgin2 {
   display: flex;
-  width: 50%;
-  margin-left: 5rem;
+  width: 10rem;
+  height: 10rem;
+  margin-left: 4rem;
   margin-top: 3rem;
   margin-bottom: 2rem;
-  border: 1px solid red;
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .box3{
@@ -178,7 +186,6 @@
   margin-left: 5rem;
   margin-top: 6rem;
   margin-bottom: 3.7rem;
-  border: 1px solid red;
 }
 
 /*Fifth Section*/
@@ -275,7 +282,7 @@
 
   .wordbox1{
   display: flex;
-  width: 30.5%;
+  width: 30.8%;
   height: 2rem;
   background-color: black;
   color: white;
@@ -293,7 +300,7 @@
 
 .wordbox2{
 display: flex;
-width: 30.5%;
+width: 30.8%;
 height: 2rem;
 background-color: black;
 color: white;
@@ -311,7 +318,7 @@ justify-content: center;
 
 .wordbox3{
   display: flex;
-  width: 30.5%;
+  width: 30.8%;
   height: 2rem;
   background-color: black;
   color: white;
@@ -365,16 +372,17 @@ justify-content: center;
  .stats{margin-top: 5rem;  height: 200px;}
     .ender{ margin-top: 0rem;}
     .words{justify-content: center;}
-    .imgin2{width: 90%;
-            margin-left: 3rem;}
-    .imgin{margin-left: 3rem;}
+    .imgin{height: 13rem; width: 20rem;margin-left: 7rem; margin-right: 7rem; margin-top:2rem;}
+.imgin2{margin-left: 7rem;}
     .statholder{height: 99px;}
+
   }
 
 @media only screen and  (max-width:470px){
   .box1, .wordbox1 {width: 100%;}
   .box2, .wordbox2 {display: none;}
-  .imgin{margin-left: 3rem;}
+  .imgin{margin-left: 12rem; margin-right: 11rem; height: 12rem; width: 12rem;
+            }
  .statholder{flex-direction: column;
               height: 200px;}
   .location{width: 100%;
@@ -390,6 +398,7 @@ justify-content: center;
           font-weight: bold;}
   .blackbox{width: 100%;   height: 6rem;}
   .holder{margin-top: 9rem;}
+
 }
 
 
