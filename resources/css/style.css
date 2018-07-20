@@ -366,14 +366,14 @@ justify-content: center;
     .topbar, .navbar, .ender, .imgback, .littlecontainer {width: 100%;}
    .box3, .wordbox3, .eye, .apperal,.gadgets, .veh,.classes, .contact { display: none;}
    .box1, .box2{width: 47%;}
-   .wordbox1, .wordbox2{width: 48%}
+   .wordbox1, .wordbox2{width: 48%;}
  .location, .hours{width: 35%;  margin-top: 0rem;   margin-bottom: 0rem;}
  .littlecontainer{ height: 20rem;}
  .stats{margin-top: 5rem;  height: 200px;}
     .ender{ margin-top: 0rem;}
     .words{justify-content: center;}
-.imgin{margin-left: 8rem; margin-right: 6rem;}
-.imgin2{margin-left: 9rem;}
+.imgin{margin: auto;}
+.imgin2{margin: auto;}
     .statholder{height: 99px;}
  }
 
@@ -384,7 +384,7 @@ justify-content: center;
   .box1 {width: 98%;}
   .wordbox1{width: 100%}
   .box2, .wordbox2 {display: none;}
-  .imgin{margin-left: 10rem;  height: 10rem;}
+  .imgin{margin:auto;}
 
  .statholder{flex-direction: column;
               height: 200px;}
