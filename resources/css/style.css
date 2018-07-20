@@ -147,6 +147,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  border: 1px solid red;
 }
 
 
@@ -171,6 +172,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  border: 1px solid red;
 }
 
 .box3{
@@ -361,28 +363,29 @@ justify-content: center;
 
 
 @media only screen and (max-width:960px){
-    .topbar, .navbar, .ender {width: 100%;}
+    .topbar, .navbar, .ender, .imgback, .littlecontainer {width: 100%;}
    .box3, .wordbox3, .eye, .apperal,.gadgets, .veh,.classes, .contact { display: none;}
    .box1, .box2{width: 47%;}
    .wordbox1, .wordbox2{width: 48%}
- .location, .hours{width: 35%;
-                    margin-top: 0rem;
-                     margin-bottom: 0rem;}
+ .location, .hours{width: 35%;  margin-top: 0rem;   margin-bottom: 0rem;}
  .littlecontainer{ height: 20rem;}
  .stats{margin-top: 5rem;  height: 200px;}
     .ender{ margin-top: 0rem;}
     .words{justify-content: center;}
-    .imgin{height: 13rem; width: 20rem;margin-left: 7rem; margin-right: 7rem; margin-top:2rem;}
-.imgin2{margin-left: 7rem;}
+.imgin{margin-left: 8rem; margin-right: 6rem;}
+.imgin2{margin-left: 9rem;}
     .statholder{height: 99px;}
+ }
 
-  }
+
 
 @media only screen and  (max-width:470px){
-  .box1, .wordbox1 {width: 100%;}
+.littlecontainer{width: 100%;}
+  .box1 {width: 98%;}
+  .wordbox1{width: 100%}
   .box2, .wordbox2 {display: none;}
-  .imgin{margin-left: 12rem; margin-right: 11rem; height: 12rem; width: 12rem;
-            }
+  .imgin{margin-left: 10rem;  height: 10rem;}
+
  .statholder{flex-direction: column;
               height: 200px;}
   .location{width: 100%;
